@@ -1,4 +1,4 @@
-const names = require('../../fixtures/names.json')
+const names = require('../../fixtures/names3.json')
 
 Cypress._.times(names.length, (iterate) => {
     describe('example to-do app', () => {
